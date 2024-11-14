@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width, initial-scale="1.0">
+    <title></title>Mi primera pagina</title>
+</head>
+<body>
+    <h1>Lista de Alumnos</h1>
+    <h2>Primera fila</h2>
+    <!--hola-->
+    <ol>
+        <li>Andrea</li>
+        <li>Angel</li>
+        <li>Yatzil</li>
+    </ol>
+    
+    <h2>segunda fila</h2>
+    <!--hola-->
+    <ul>
+        <li>Aislynn</li>
+        <li>Emanuel</li>
+        <li>Ernesto</li>
+        <li>Agustin</li>
+    </ul>
+    
+    

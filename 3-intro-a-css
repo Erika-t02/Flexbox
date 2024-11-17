@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum de Erika Tlatelpa Pérez</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            color: #090303;
+            margin: 0;
+            padding: 0;
+            background-color: #e8f4f8;
+        }
+
+        /* Contenedor principal */
+        .container {
+            display: flex;
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+            border: 3px solid #3498db;
+            border-radius: 12px;
+        }
+
+        /* Columna de información personal */
+        .personal-info {
+            width: 35%;
+            background: linear-gradient(135deg, #3498db, #2980b9);
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+            border-radius: 12px 0 0 12px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .personal-info img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-bottom: 15px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+        }
+
+        .personal-info h1 {
+            font-size: 1.8em;
+            margin: 10px 0 5px;
+        }
+
+        .personal-info p {
+            font-size: 1em;
+            margin: 5px 0;
+        }
+
+        /* Contenedor principal de información */
+        .main-content {
+            width: 65%;
+            padding: 20px;
+        }
+
+        /* Estilos de las secciones */
+        .section {
+            margin-bottom: 20px;
+            border-left: 5px solid #3498db;
+            padding-left: 15px;
+            background-color: #f9fcff;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .section h2 {
+            font-size: 1.5em;
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .section ul li {
+            margin-bottom: 10px;
+            padding-left: 5px;
+        }
+
+        /* Separación de listas */
+        .section ul li strong {
+            display: block;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <!-- Columna de información personal -->
+        <div class="personal-info">
+            <img src="https://sl.bing.net/f5eEMaTTCSa" alt="Fotografía de Erika Tlatelpa Pérez">
+            <h1>Erika Tlatelpa Pérez</h1>
+            <p>Ingeniera Civil</p>
+            <p>Email: erikatlatelpaperez@gmail.com</p>
+            <p>Teléfono: 244-243-7055</p>
+        </div>
+
+        <!-- Contenedor de información principal -->
+        <div class="main-content">
+
+            <div class="section">
+                <h2>Experiencia Laboral</h2>
+                <ul>
+                    <li><strong>Constructora Inovat</strong> - Coordinación y supervisión de la obra - 02/07/2024</li>
+                    <li>Gestionar, diseñar, desarrollar y mantener proyectos de construcción de pequeña a gran escala de manera segura, oportuna y sostenible. Realizar investigaciones en el sitio y analizar datos (mapas, informes, pruebas, dibujos y otros) para redactar planos que cumplan con especificaciones técnicas.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>Educación</h2>
+                <ul>
+                    <li><strong>Benemérita Universidad Autónoma de Puebla</strong> - Recién Egresada - 24/05/2024</li>
+                    <li>Conocimientos en matemáticas, física, química, informática y evaluación de proyectos.</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>Habilidades</h2>
+                <ul>
+                    <li>Diseño de proyectos</li>
+                    <li>Gestión de equipos</li>
+                    <li>Realización de estudios técnicos</li>
+                </ul>
+            </div>
+
+                <h2>Idiomas</h2>
+                <ul>
+                    <li>Español - Nativo</li>
+                    <li>Inglés - Intermedio</li>
+                </ul>
+    </div>
+</body>
+</html>
+
+

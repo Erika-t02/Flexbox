@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glosario de GitHub</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            margin: 0;
+            padding: 10px 0;
+        }
+        .glossary-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            justify-content: center;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-left: 5px solid #4CAF50;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .card h1, .card h2, .card h3, .card h4, .card h5, .card h6 {
+            font-size: 1.4em;
+            font-weight: bold;
+        }
+        .card p {
+            color: #666;
+            font-size: 1em;
+            margin-top: 10px;
+        }
+        /* Colores personalizados para diferentes niveles */
+        .card:nth-child(odd) {
+            border-left-color: #4CAF50;
+        }
+        .card:nth-child(even) {
+            border-left-color: #2196F3;
+        }
+        .card:nth-child(odd) h1, .card:nth-child(odd) h2, .card:nth-child(odd) h3, .card:nth-child(odd) h4 {
+            color: #4CAF50;
+        }
+        .card:nth-child(even) h1, .card:nth-child(even) h2, .card:nth-child(even) h3, .card:nth-child(even) h4 {
+            color: #2196F3;
+        }
+        /* Estilo adicional para los títulos de la tarjeta */
+        .card h1 {
+            font-size: 1.6em;
+            color: #4CAF50;
+        }
+        .card h2, .card h3 {
+            font-size: 1.4em;
+            color: #2196F3;
+        }
+        .card h4, .card h5 {
+            font-size: 1.2em;
+            color: #FF5722;
+        }
+        .card h6 {
+            font-size: 1.1em;
+            color: #9C27B0;
+        }
+    </style>
+</head>
+<body>
+    <div class="glossary-container">
+        <div class="card">
+            <h1>Repositorio</h1>
+            <p>Un lugar donde se almacenan los archivos de un proyecto.</p>
+        </div>
+        <div class="card">
+            <h2>Remote</h2>
+            <p>Un repositorio que se encuentra alojado en un servidor, como GitHub, GitLab, o Bitbucket, y que se conecta con tu repositorio local.</p>
+        </div>
+        <div class="card">
+            <h3>Push</h3>
+            <p>El proceso de enviar cambios desde tu repositorio local a un repositorio remoto.</p>
+        </div>
+        <div class="card">
+            <h4>Pull</h4>
+            <p>El proceso de obtener los últimos cambios desde un repositorio remoto a tu repositorio local.</p>
+        </div>
+        <div class="card">
+            <h5>Clone</h5>
+            <p>Copiar un repositorio remoto a tu máquina local para poder trabajar en él sin necesidad de estar conectado constantemente al repositorio remoto.</p>
+        </div>
+        <div class="card">
+            <h6>Conflict</h6>
+            <p>Ocurre cuando dos ramas tienen cambios incompatibles en el mismo archivo, lo que requiere intervención manual para resolverlo.</p>
+        </div>
+        <div class="card">
+            <h2>Rebase</h2>
+            <p>Una forma de integrar los cambios de una rama en otra, reescribiendo el historial de commits para que parezca que los cambios se hicieron en una secuencia continua.</p>
+        </div>
+        <div class="card">
+            <h3>Staging Area</h3>
+            <p>El área en Git donde los archivos se preparan antes de ser confirmados en el repositorio, permitiendo que selecciones qué cambios enviar al repositorio.</p>
+        </div>
+        <div class="card">
+            <h4>CI/CD</h4>
+            <p>Integración continua (CI) y entrega continua (CD) son prácticas de desarrollo que permiten la automatización de pruebas y despliegue de código a producción.</p>
+        </div>
+        <div class="card">
+            <h5>Git Flow</h5>
+            <p>Un conjunto de reglas y convenciones para manejar ramas de desarrollo, como la creación de ramas para nuevas características, corrección de errores y lanzamientos.</p>
+        </div>
+        <div class="card">
+            <h6>Webhooks</h6>
+            <p>Una forma de notificar a una aplicación externa cuando ocurren ciertos eventos en un repositorio de GitHub, como un nuevo commit o la creación de un pull request.</p>
+        </div>
+        <div class="card">
+            <h2>Commit</h2>
+            <p>Un punto de guardado en la historia de un proyecto.</p>
+        </div>
+        <div class="card">
+            <h3>Pull Request</h3>
+            <p>Solicitud para fusionar cambios en un proyecto.</p>
+        </div>
+        <div class="card">
+            <h4>Branch</h4>
+            <p>Una versión paralela del código que permite trabajar en nuevas características sin afectar el código principal.</p>
+        </div>
+        <div class="card">
+            <h5>Merge</h5>
+            <p>Acción de combinar dos ramas de un proyecto en una sola.</p>
+        </div>
+        <div class="card">
+            <h6>Fork</h6>
+            <p>Una copia de un repositorio que permite modificar el proyecto sin afectar el original.</p>
+        </div>
+        <div class="card">
+            <h2>Clone</h2>
+            <p>Copiar un repositorio a tu máquina local para trabajar en él de manera local.</p>
+        </div>
+    </div>
+</body>
+</html>
